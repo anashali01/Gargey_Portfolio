@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Gerhaus';
+    src: url('../Font/Gerhaus-Regular.woff2') format('woff2'),
+        url('../Font/Gerhaus-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../Font/SFProDisplay-Medium.woff2') format('woff2'),
+        url('../Font/SFProDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../Font/SFProDisplay-Bold.woff2') format('woff2'),
+        url('../Font/SFProDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../Font/SFProDisplay-Regular.woff2') format('woff2'),
+        url('../Font/SFProDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../Font/Satoshi-Black.woff2') format('woff2'),
+        url('../Font/Satoshi-Black.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../Font/Satoshi-Light.woff2') format('woff2'),
+        url('../Font/Satoshi-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../Font/Satoshi-Medium.woff2') format('woff2'),
+        url('../Font/Satoshi-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../Font/Satoshi-Bold.woff2') format('woff2'),
+        url('../Font/Satoshi-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../Font/Satoshi-Regular.woff2') format('woff2'),
+        url('../Font/Satoshi-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
