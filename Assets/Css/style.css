@@ -9,3 +9,59 @@ body {
     height: 100%;
     width: 100%;
 }
+
+/* Header Start */
+
+.btn-talk{
+    border: none;
+    width: 100px;
+    padding: 5px 0px;
+}
+.btn-talk a{
+    font-size: 13px;
+}
+.header-menu{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1E2976;
+}
+
+/* Header End */
+
+/* Service Start */
+
+.service-badge{
+    background-color: lightgray;
+    color: #1E2976;
+    font-family: 'SF Pro Display';
+    padding: 5px;
+    font-weight: 700;
+}
+.service-text{
+    color: rgb(1, 1, 59);
+    font-family: 'SF Pro Display';
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.service-count{
+    font-size: 50px;
+    color: white;
+    font-family: 'Satoshi';
+    font-weight: 900;
+}
+.service-title{
+    font-size: 50px;
+    color: white;
+    font-family: 'Satoshi';
+    font-weight: 900;
+}
+.service-description{
+    font-size: 23px;
+    color: white;
+    font-weight: 500;
+    font-family: 'SF Pro Display';
+    line-height: 1.8;
+}
+
+/* Service End */
