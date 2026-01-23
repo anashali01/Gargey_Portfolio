@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Gerhaus';
+    src: url('../Font/gerhaus-vmmka.ttf');
+}
+@font-face {
+    font-family: 'SF-Pro';
+    src: url('../Font/SF-Pro-Text-Regular.otf');
+}
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../Font/SF-Pro-Text-Semibold.otf');
+}
 * {
     padding: 0px;
     margin: 0px;
@@ -27,6 +39,40 @@ body {
 }
 
 /* Header End */
+
+/* Hero Section Start  */
+.hero-section {
+    padding: 4rem 0;
+}
+
+.hero-section h2 {
+    font-size: 82px;
+    padding: 0;
+    margin: 0;
+    color: #1E2976;
+    font-weight: 300;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.hero-section h1 {
+    font-size: 340px;
+    padding: 0;
+    margin: -10px 0 0 -5px;
+    color: #1E2976;
+    font-weight: normal;
+    font-family: 'Gerhaus', sans-serif !important;
+    line-height: 0.85;
+    text-align: left;
+    width: 100%;
+    letter-spacing: -0.02em;
+}
+
+.hero-section h3{
+    font-size: 38px;
+    font-family: 'SF-Pro';
+    font-weight: 700;
+}
+/* Hero Section End  */
 
 /* Service Start */
 
