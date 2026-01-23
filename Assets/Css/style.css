@@ -2,14 +2,32 @@
     font-family: 'Gerhaus';
     src: url('../Font/gerhaus-vmmka.ttf');
 }
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../Font/Satoshi-Variable.ttf');
+}
+
 @font-face {
     font-family: 'SF-Pro';
     src: url('../Font/SF-Pro-Text-Regular.otf');
 }
+
 @font-face {
-    font-family: 'Satoshi';
-    src: url('../Font/SF-Pro-Text-Semibold.otf');
+    font-family: 'SF-SemiBold';
+    src: url('../Font/SF-Compact-Text-Semibold.ttf');
 }
+
+@font-face {
+    font-family: 'SF-Bold';
+    src: url('../Font/SF-Pro-Text-Bold.otf');
+}
+
+@font-face {
+    font-family: 'SF-Heavy';
+    src: url('../Font/SF-Pro-Text-Heavy.otf');
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -24,39 +42,45 @@ body {
 
 /* Header Start */
 
-.btn-talk{
+.btn-talk {
     border: none;
     width: 100px;
     padding: 5px 0px;
     background-color: #1E2976;
     transition: 0.5s;
-    
+
     border: 1px solid #1E2976;
 }
-.btn-talk a{
+
+.btn-talk a {
     font-size: 13px;
 }
-.btn-talk:hover{
+
+.btn-talk:hover {
     background-color: white;
     border: 1px solid #1E2976;
     box-shadow: 0px 4px 15px rgba(30, 41, 118, 0.3);
     transform: translateY(-2px);
 }
-.btn-talk:hover a{
+
+.btn-talk:hover a {
     color: #1E2976 !important;
 }
-.header-menu{
+
+.header-menu {
     font-size: 16px;
     font-weight: 500;
     color: #1E2976;
     position: relative;
     display: inline-block;
-    transition:0.5s;
+    transition: 0.5s;
 }
-.header-menu:hover{
+
+.header-menu:hover {
     transform: translateY(-2px);
 }
-.hover-line{
+
+.hover-line {
     height: 2px;
     background-color: #1E2976;
     width: 0;
@@ -65,7 +89,8 @@ body {
     left: 0;
     transition: width 0.3s ease;
 }
-.header-menu:hover .hover-line{
+
+.header-menu:hover .hover-line {
     width: 100%;
 }
 
@@ -81,7 +106,7 @@ body {
     padding: 0;
     margin: 0;
     color: #1E2976;
-    font-weight: 300;
+    font-weight: 400;
     font-family: 'Satoshi', sans-serif;
 }
 
@@ -98,48 +123,106 @@ body {
     letter-spacing: -0.02em;
 }
 
-.hero-section h3{
-    font-size: 38px;
-    font-family: 'SF-Pro';
+.hero-section h3 {
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: 'SF-SemiBold';
     font-weight: 700;
 }
+
+.hero-section .info {
+    gap: 0 15px;
+    margin-top: 8px;
+}
+
+.hero-section .info h6:nth-child(1) {
+    background-color: #E9D5FF;
+    font-size: 17px;
+    font-family: 'SF-SemiBold';
+    padding: 9px 16px;
+    border-radius: 50px;
+    color: #1E2875;
+}
+
+.hero-section .info h6:nth-child(2) {
+    font-family: 'SF-SemiBold';
+    font-size: 20px;
+
+}
+
+.hero-section .info h6:nth-child(3) {
+    background-color: #1E2875;
+    font-size: 17px;
+    font-family: 'SF-SemiBold';
+    padding: 9px 16px;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+
+.hero-section p {
+    margin-top: 6px;
+    font-size: 28px;
+    font-family: "SF-Bold";
+}
+
+.hero-section .arrow {
+    width: 52px;
+    height: 52px;
+    background-color: #1E2875;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.hero-section .arrow i {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
 /* Hero Section End  */
 
 /* Service Start */
 
-.service-container{
+.service-container {
     background-image: url('../img/serviceimg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
-.service-badge{
+
+.service-badge {
     background-color: lightgray;
     color: #1E2976;
     font-family: 'SF Pro Text';
     padding: 5px;
     font-weight: 700;
 }
-.service-text{
+
+.service-text {
     color: rgb(1, 1, 59);
     font-family: 'SF Pro Text';
     font-size: 25px;
     font-weight: 600;
     line-height: 1.2;
 }
-.service-count{
+
+.service-count {
     font-size: 50px;
     color: white;
     font-family: 'Gerhaus';
     font-weight: 900;
 }
-.service-title{
+
+.service-title {
     font-size: 45px;
     color: white;
     font-family: 'Gerhaus';
     font-weight: 900;
     letter-spacing: 1.5px;
 }
-.service-description{
+
+.service-description {
     font-size: 20px;
     color: white;
     font-weight: 500;
