@@ -67,7 +67,7 @@ body {
     color: #1E2976 !important;
 }
 
-.header-menu {
+.header-menu{
     font-size: 16px;
     font-weight: 500;
     color: #1E2976;
@@ -102,7 +102,6 @@ body {
 }
 
 .hero-section h2 {
-    font-size: 82px;
     padding: 0;
     margin: 0;
     color: #1E2976;
@@ -111,7 +110,6 @@ body {
 }
 
 .hero-section h1 {
-    font-size: 340px;
     padding: 0;
     margin: -10px 0 0 -5px;
     color: #1E2976;
