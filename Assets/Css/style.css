@@ -230,3 +230,38 @@ body {
 }
 
 /* Service End */
+/* Application Start */
+
+.application-title{
+    color:white;
+    font-family: 'Gerhaus';
+    font-size: 40px;
+    text-align: center;
+}
+.app-year{
+    font-family: 'Gerhaus';
+    color: white;
+    font-size: 20px;
+}
+.app-year-no{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
+.app-badge{
+    background-color: #1E2875;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Satoshi';
+    font-weight: 600;
+    font-size: 11px;
+    padding: 10px 10px;
+}
+.app-summary{
+    font-family: 'Satoshi';
+    color: white;
+    line-height: 2;
+    font-weight: 600;
+}
+
+/* Application End */
