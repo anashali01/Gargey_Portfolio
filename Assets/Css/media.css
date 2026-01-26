@@ -46,6 +46,10 @@
     .hero-section h2 {
         font-size: 45px;
     }
+
+    .up-img-wrapper{
+        margin-top: -60px;
+    }
 }
 
 @media(min-width:992px) {
@@ -55,6 +59,10 @@
 
     .hero-section h2 {
         font-size: 60px;
+    }
+
+    .up-img-wrapper{
+        margin-top: -75px;
     }
 }
 
