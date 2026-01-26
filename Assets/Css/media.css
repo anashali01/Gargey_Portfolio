@@ -24,6 +24,14 @@
     .hero-section h2 {
         font-size: 20px;
     }
+
+    .p-s{
+        font-size: 20px;
+    }
+
+    .p-s2{
+        font-size: 25px;
+    }
 }
 
 @media(min-width:576px) {
@@ -34,6 +42,10 @@
 
     .hero-section h2 {
         font-size: 45px;
+    }
+
+    .p-s{
+        font-size: 25px;
     }
 }
 
@@ -49,6 +61,14 @@
 
     .up-img-wrapper{
         margin-top: -60px;
+    }
+
+    .p-s{
+        font-size: 25px;
+    }
+
+    .p-s2{
+        font-size: 30px;
     }
 }
 
