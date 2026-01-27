@@ -360,5 +360,10 @@ body {
     border-radius: 25px;
     font-weight: 500;
 }
+.raibox{
+    background-color: white;
+    padding: 20px 15px;
+    border-radius: 15px;
+}
 
 /* Application End */
