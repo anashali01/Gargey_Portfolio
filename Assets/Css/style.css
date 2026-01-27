@@ -67,7 +67,7 @@ body {
     color: #1E2976 !important;
 }
 
-.header-menu{
+.header-menu {
     font-size: 16px;
     font-weight: 500;
     color: #1E2976;
@@ -181,6 +181,66 @@ body {
 
 /* Hero Section End  */
 
+/* About Section Start  */
+.about .content h2 {
+    font-family: 'Gerhaus', sans-serif !important;
+    font-size: 100px;
+    color: #1E2976;
+    margin: 120px 0 88px 0;
+}
+
+.about .content p {
+    font-size: 30px;
+    color: #3544b8;
+    font-family: "SF-SemiBold";
+    margin-bottom: 180px;
+}
+
+/* About Section End  */
+
+/* Work Section Start  */
+.works .heading h2 {
+    font-size: 88px;
+    font-family: 'Gerhaus', sans-serif !important;
+    color: #1E2976;
+}
+
+.works .work-card {
+    background: #090f37;
+    padding: 16px;
+    border-radius: 28px;
+    overflow-x: hidden;
+}
+
+.works .work-card .card-body {
+    padding-top: 20px;
+}
+
+.works .work-card .card-body .logo img {
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+
+.works .work-card .card-body .logo h3,
+.works .work-card .card-body h5 {
+    padding-left: 15px;
+    font-size: 20px;
+}
+.works .card-footer{
+    width: 100%;
+}
+.works .card-footer .marquee {
+    gap: 2vw;
+    /* transform: translateX(-100%); */
+}
+.works .card-footer .marquee span{
+    color: whitesmoke;
+}
+
+/* Work Section End  */
+
 /* Service Start */
 
 .service-container {
@@ -230,23 +290,26 @@ body {
 /* Service End */
 /* Application Start */
 
-.application-title{
-    color:white;
+.application-title {
+    color: white;
     font-family: 'Gerhaus';
     font-size: 40px;
     text-align: center;
 }
-.app-year{
+
+.app-year {
     font-family: 'Gerhaus';
     color: white;
     font-size: 20px;
 }
-.app-year-no{
+
+.app-year-no {
     color: white;
     font-size: 35px;
     font-weight: 700;
 }
-.app-badge{
+
+.app-badge {
     background-color: #1E2875;
     color: white;
     text-transform: uppercase;
@@ -255,13 +318,15 @@ body {
     font-size: 11px;
     padding: 10px 10px;
 }
-.app-summary{
+
+.app-summary {
     font-family: 'Satoshi';
     color: white;
     line-height: 2;
     font-weight: 600;
 }
-.p-s{
+
+.p-s {
     color: #1E2875;
     font-family: 'Gerhaus';
     padding: 15px 10px;
@@ -270,12 +335,14 @@ body {
     border-radius: 25px;
     font-weight: 500;
 }
-.ps-description{
+
+.ps-description {
     padding: 20px 15px;
     background-color: #B8BCF0;
     border-radius: 20px;
 }
-.ps-des-inner{
+
+.ps-des-inner {
     font-family: 'Satoshi';
     color: #1E2875;
     font-size: 14px;
@@ -283,7 +350,8 @@ body {
     margin-bottom: 0;
     line-height: 2;
 }
-.p-s2{
+
+.p-s2 {
     color: #1E2875;
     font-family: 'Gerhaus';
     padding: 15px 15px;
