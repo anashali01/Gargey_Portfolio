@@ -32,6 +32,19 @@
     .p-s2 {
         font-size: 25px;
     }
+
+    .raibox-text{
+        font-size: 15px;
+    }
+
+    .raibox-des{
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+    .rai{
+        font-size: 22px;
+    }
 }
 
 @media(min-width:576px) {
@@ -83,6 +96,10 @@
 
     .up-img-wrapper {
         margin-top: -75px;
+    }
+
+    .col-lg-2-5{
+        width: 20%;
     }
 }
 
