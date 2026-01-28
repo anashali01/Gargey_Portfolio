@@ -228,17 +228,30 @@ body {
     padding-left: 15px;
     font-size: 20px;
 }
-.works .card-footer{
+
+.works .card-footer {
     width: 100%;
 }
+
 .works .card-footer .marquee {
+    margin-top: 20px;
     gap: 2vw;
+    white-space: nowrap;
     /* transform: translateX(-100%); */
-}
-.works .card-footer .marquee span{
-    color: whitesmoke;
+    animation: marquee 7s linear infinite;
 }
 
+.works .card-footer .marquee span {
+    color: whitesmoke;
+    display: inline-block;
+}
+
+.works .more{
+    margin: 64px 0 120px 0;
+}
+.works .more a{
+    font-size: 20px;
+}
 /* Work Section End  */
 
 /* Service Start */
@@ -360,12 +373,14 @@ body {
     border-radius: 20px;
     font-weight: 500;
 }
-.raibox{
+
+.raibox {
     background-color: white;
     padding: 20px 15px;
     border-radius: 15px;
 }
-.rai{
+
+.rai {
     color: #1E2875;
     font-family: 'Gerhaus';
     padding: 15px 10px;
@@ -374,24 +389,28 @@ body {
     border-radius: 20px;
     font-weight: 500;
 }
-.raibox-text{
+
+.raibox-text {
     font-size: 23px;
     color: #1E2875;
     font-weight: 700;
     font-family: 'SF-Bold';
 }
-.raibox-des{
+
+.raibox-des {
     font-size: 12px;
     color: #1E2875;
     font-family: 'SF-Pro';
 }
-.raf-text1{
+
+.raf-text1 {
     font-size: 20px;
     color: #1E2875;
     font-weight: 700;
     font-family: 'SF-Bold';
 }
-.raf-text2{
+
+.raf-text2 {
     background-color: #B8BCF0;
     color: #1E2875;
     padding: 2.5px 15px;
@@ -399,16 +418,19 @@ body {
     font-weight: 600;
     font-family: 'SF-Bold';
 }
-.col-lg-2-5{
+
+.col-lg-2-5 {
     width: 20%;
     padding: 0px 12px;
 }
-.kufbox{
+
+.kufbox {
     background-color: white;
     padding: 25px 15px;
     border-radius: 15px;
 }
-.raf-text3{
+
+.raf-text3 {
     background-color: #B8BCF0;
     color: #1E2875;
     padding: 10px 20px;
@@ -418,3 +440,15 @@ body {
 }
 
 /* Application End */
+
+
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
