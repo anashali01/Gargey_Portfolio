@@ -199,7 +199,8 @@ body {
 /* About Section End  */
 
 /* Work Section Start  */
-.works .heading h2 {
+.works .heading h2,
+.design-env .heading h2 {
     font-size: 88px;
     font-family: 'Gerhaus', sans-serif !important;
     color: #1E2976;
@@ -246,12 +247,14 @@ body {
     display: inline-block;
 }
 
-.works .more{
+.works .more {
     margin: 64px 0 120px 0;
 }
-.works .more a{
+
+.works .more a {
     font-size: 20px;
 }
+
 /* Work Section End  */
 
 /* Service Start */
@@ -301,6 +304,37 @@ body {
 }
 
 /* Service End */
+
+/* Design Environment Section Start  */
+.design-env .heading h2{
+    margin-bottom: 42px;
+}
+.design-env .tools svg {
+    color: #3544b8 !important;
+}
+.design-env .tools .gemini svg{
+    width: 274px !important;
+}
+.design-env .tools .col-4 svg {
+    width: 191px ;
+}
+.design-env .tools .col-3 {
+    margin: 94px 0 48px 0;
+    height: 100%;
+}
+.design-env .tools .col-3 svg {
+    width: 75px !important;
+}
+.design-env .tools .hover{
+    height: 100%;
+}
+.design-env .tools .hover:hover{
+    background-color: black;
+    transition: 0.4s;
+}
+
+/* Design Environment Section End  */
+
 /* Application Start */
 
 .application-title {
