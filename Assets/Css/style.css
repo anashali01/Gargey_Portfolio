@@ -309,8 +309,8 @@ body {
 .design-env .heading h2{
     margin-bottom: 42px;
 }
-.design-env .tools svg {
-    color: #3544b8 !important;
+.hc svg {
+    color: #3544b8;
 }
 .design-env .tools .gemini svg{
     width: 274px !important;
@@ -319,18 +319,35 @@ body {
     width: 191px ;
 }
 .design-env .tools .col-3 {
-    margin: 94px 0 48px 0;
     height: 100%;
 }
 .design-env .tools .col-3 svg {
     width: 75px !important;
 }
 .design-env .tools .hover{
+    height: 191px;
+    position: relative;
+}
+.hover::after{
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    background-color: black;
+    width: 0%;
+    height: 0%;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.4s ease-in;
+}
+.design-env .tools .hover:hover::after{
+    width: 100%;
     height: 100%;
 }
-.design-env .tools .hover:hover{
-    background-color: black;
-    transition: 0.4s;
+
+.hover:hover .hc svg{
+    color: white ;
 }
 
 /* Design Environment Section End  */
