@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Gerhaus';
+    src: url('../Font/gerhaus-vmmka.ttf');
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../Font/Satoshi-Variable.ttf');
+}
+
+@font-face {
+    font-family: 'SF-Pro';
+    src: url('../Font/SF-Pro-Text-Regular.otf');
+}
+
+@font-face {
+    font-family: 'SF-SemiBold';
+    src: url('../Font/SF-Compact-Text-Semibold.ttf');
+}
+
+@font-face {
+    font-family: 'SF-Bold';
+    src: url('../Font/SF-Pro-Text-Bold.otf');
+}
+
+@font-face {
+    font-family: 'SF-Heavy';
+    src: url('../Font/SF-Pro-Text-Heavy.otf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Application Start */
+
+.application-title {
+    color: white;
+    font-family: 'Gerhaus';
+    font-size: 40px;
+    text-align: center;
+}
+
+.app-year {
+    font-family: 'Gerhaus';
+    color: white;
+    font-size: 20px;
+}
+
+.app-year-no {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.app-badge {
+    background-color: #1E2875;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Satoshi';
+    font-weight: 600;
+    font-size: 11px;
+    padding: 10px 10px;
+}
+
+.app-summary {
+    font-family: 'Satoshi';
+    color: white;
+    line-height: 2;
+    font-weight: 600;
+}
+
+.p-s {
+    color: #1E2875;
+    font-family: 'Gerhaus';
+    padding: 15px 10px;
+    background-color: #E9EAF5;
+    font-size: 30px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.ps-description {
+    padding: 20px 15px;
+    background-color: #B8BCF0;
+    border-radius: 20px;
+}
+
+.ps-des-inner {
+    font-family: 'Satoshi';
+    color: #1E2875;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 0;
+    line-height: 2;
+}
+
+.p-s2 {
+    color: #1E2875;
+    font-family: 'Gerhaus';
+    padding: 15px 15px;
+    background-color: #E9EAF5;
+    font-size: 35px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.raibox {
+    background-color: white;
+    padding: 20px 15px;
+    border-radius: 15px;
+}
+
+.rai {
+    color: #1E2875;
+    font-family: 'Gerhaus';
+    padding: 15px 10px;
+    background-color: #E9EAF5;
+    font-size: 33px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.raibox-text {
+    font-size: 23px;
+    color: #1E2875;
+    font-weight: 700;
+    font-family: 'SF-Bold';
+}
+
+.raibox-des {
+    font-size: 12px;
+    color: #1E2875;
+    font-family: 'SF-Pro';
+}
+
+.raf-text1 {
+    font-size: 20px;
+    color: #1E2875;
+    font-weight: 700;
+    font-family: 'SF-Bold';
+}
+
+.raf-text2 {
+    background-color: #B8BCF0;
+    color: #1E2875;
+    padding: 2.5px 15px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'SF-Bold';
+}
+
+.col-lg-2-5 {
+    width: 20%;
+    padding: 0px 12px;
+}
+
+.kufbox {
+    background-color: white;
+    padding: 25px 15px;
+    border-radius: 15px;
+}
+
+.raf-text3 {
+    background-color: #B8BCF0;
+    color: #1E2875;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'SF-Bold';
+}
+
+/* Application End */

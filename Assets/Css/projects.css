@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Gerhaus';
+    src: url('../Font/gerhaus-vmmka.ttf');
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../Font/Satoshi-Variable.ttf');
+}
+
+@font-face {
+    font-family: 'SF-Pro';
+    src: url('../Font/SF-Pro-Text-Regular.otf');
+}
+
+@font-face {
+    font-family: 'SF-SemiBold';
+    src: url('../Font/SF-Compact-Text-Semibold.ttf');
+}
+
+@font-face {
+    font-family: 'SF-Bold';
+    src: url('../Font/SF-Pro-Text-Bold.otf');
+}
+
+@font-face {
+    font-family: 'SF-Heavy';
+    src: url('../Font/SF-Pro-Text-Heavy.otf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Work Section Start  */
+.works .heading h2,
+.design-env .heading h2 {
+    font-size: 88px;
+    font-family: 'Gerhaus', sans-serif !important;
+    color: #1E2976;
+}
+
+.works .work-card {
+    background: #090f37;
+    padding: 16px;
+    border-radius: 28px;
+    overflow-x: hidden;
+}
+
+.works .work-card .card-body {
+    padding-top: 20px;
+}
+
+.works .work-card .card-body .logo img {
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+
+.works .work-card .card-body .logo h3,
+.works .work-card .card-body h5 {
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.works .card-footer {
+    width: 100%;
+}
+
+.works .card-footer .marquee {
+    margin-top: 20px;
+    gap: 2vw;
+    white-space: nowrap;
+    /* transform: translateX(-100%); */
+    animation: marquee 7s linear infinite;
+}
+
+.works .card-footer .marquee span {
+    color: whitesmoke;
+    display: inline-block;
+}
+
+.works .more {
+    margin: 64px 0 120px 0;
+}
+
+.works .more a {
+    font-size: 20px;
+}
+
+/* Work Section End  */

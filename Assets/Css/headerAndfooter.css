@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Header Start */
+.btn-talk {
+    border: none;
+    width: 100px;
+    padding: 5px 0px;
+    background-color: #1E2976;
+    border: 1px solid #1E2976;
+}
+
+.btn-talk a {
+    font-size: 13px;
+}
+
+.btn-talk:hover {
+    background-color: white;
+    border: 1px solid #1E2976;
+    box-shadow: 0px 4px 15px rgba(30, 41, 118, 0.3);
+    transform: translateY(-2px);
+} 
+
+ .btn-talk:hover a {
+    color: #1E2976 !important;
+}
+
+.header-menu {
+    font-size: 16px;
+    font-weight: 500;
+    color: #1E2976;
+    display: inline-block;
+}
+
+.header-menu:hover {
+    color: #0d1b5e;
+    text-decoration: underline !important;
+}
+/* Header End */
