@@ -47,7 +47,7 @@ body {
     width: 100px;
     padding: 5px 0px;
     background-color: #1E2976;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 
     border: 1px solid #1E2976;
 }
@@ -61,9 +61,9 @@ body {
     border: 1px solid #1E2976;
     box-shadow: 0px 4px 15px rgba(30, 41, 118, 0.3);
     transform: translateY(-2px);
-}
+} 
 
-.btn-talk:hover a {
+ .btn-talk:hover a {
     color: #1E2976 !important;
 }
 
@@ -71,28 +71,11 @@ body {
     font-size: 16px;
     font-weight: 500;
     color: #1E2976;
-    position: relative;
     display: inline-block;
-    transition: 0.5s;
 }
 
-.header-menu:hover {
-    transform: translateY(-2px);
-}
 
-.hover-line {
-    height: 2px;
-    background-color: #1E2976;
-    width: 0;
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    transition: width 0.3s ease;
-}
 
-.header-menu:hover .hover-line {
-    width: 100%;
-}
 
 /* Header End */
 
