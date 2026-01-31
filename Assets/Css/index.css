@@ -103,7 +103,14 @@ body {
     width: 100%;
     letter-spacing: -0.02em;
 }
-
+.hero-section h1  span,
+.hero-section h3 span,
+.hero-section p span{
+    display: inline-block;
+}
+.hero-section h3 span{
+    margin-right: 2px;
+}
 .hero-section h3 {
     font-size: 30px;
     margin-top: 50px;
