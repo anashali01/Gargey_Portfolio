@@ -302,6 +302,9 @@ body {
 .hc svg {
     color: #3544b8;
 }
+.hcc svg {
+    color: #3544b8;
+}
 .design-env .tools .gemini svg{
     width: 274px !important;
 }
@@ -339,7 +342,20 @@ body {
     transition: 0.8s;
 }
 
+.hc{
+    height: 100%;
+    width: 100%;
+}
+.hcc{
+    height: 50%;
+    width: 50%;
+}
+
 .hover:hover .hc svg{
+    color: white ;
+    transition: all 0.8s ease-in;
+}
+.hover:hover .hcc svg{
     color: white ;
     transition: all 0.8s ease-in;
 }
