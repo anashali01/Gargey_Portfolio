@@ -332,6 +332,11 @@ body {
     transition: 0.8s;
 }
 
+.hc{
+    height: 100%;
+    width: 100%;
+}
+
 .hover:hover .hc svg{
     color: white ;
     transition: all 0.8s ease-in;

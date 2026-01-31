@@ -50,6 +50,12 @@
     .col-lg-2-5{
         width: 100%;
     }
+    .design-env .heading h2{
+        font-size: 45px;
+    }
+    .about .content h2{
+        font-size: 70px;
+    }
 }
 /* SM SM SM SM SM SM SM SM SM SM SM SM */
 @media(min-width:576px) {
@@ -103,6 +109,9 @@
         right: 23%;
         font-size: 20px !important;
         padding: 10px 10px !important;
+    }
+    .design-env .heading h2{
+        font-size: 70px;
     }
 }
 /* MD MD MD MD MD MD MD MD MD MD MD MD */
@@ -166,6 +175,9 @@
         right: 26%;
         font-size: 25px !important;
         padding: 10px 10px !important;
+    }
+    .design-env .heading h2{
+        font-size: 88px;
     }
 }
 /* LG LG LG LG LG LG LG LG LG LG LG LG */
