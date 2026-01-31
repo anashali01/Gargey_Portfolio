@@ -108,7 +108,7 @@
 /* MD MD MD MD MD MD MD MD MD MD MD MD */
 @media(min-width:768px) {
     .hero-section h1 {
-        font-size: 160px;
+        font-size: 150px;
         text-align: center;
     }
 
@@ -224,7 +224,7 @@
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 @media(min-width:1200px) {
     .hero-section h1 {
-        font-size: 270px;
+        font-size: 255px;
     }
     .hf-img-1{
         position: absolute;
