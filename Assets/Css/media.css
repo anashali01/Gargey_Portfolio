@@ -56,6 +56,9 @@
     .about .content h2{
         font-size: 70px;
     }
+    .th{
+        font-size: 40px;
+    }
 }
 /* SM SM SM SM SM SM SM SM SM SM SM SM */
 @media(min-width:576px) {
