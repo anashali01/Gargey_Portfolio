@@ -171,5 +171,10 @@
     font-weight: 600;
     font-family: 'SF-Bold';
 }
+.th{
+    color: white;
+    font-family: 'Gerhaus';
+    font-size: 55px;
+}
 
 /* Application End */
